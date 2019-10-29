@@ -225,7 +225,7 @@ node-inspect 127.0.0.1:9229
 To enable debugging for kinds/languages not supported out of the box, you can specify these cli arguments manually:
 
 * `--internal-port` the actual language debug port inside the container
-* `--command` override the docker run command for the image to e.g. pass a debug flag to the language enviroment
+* `--command` override the docker run command for the image to e.g. pass a debug flag to the language environment
 * `--port` (optional) the port as it will be exposed from the container to the host, i.e. to what clients will connect to. defaults to `--internal-port` if set
 * `--image` (optional) control the docker image used as runtime for the action
 
